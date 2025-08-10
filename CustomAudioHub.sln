@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAudioHub", "CustomAudioHub\CustomAudioHub.csproj", "{0BC41CB3-958B-4968-8717-D80D662A882A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC41CB3-958B-4968-8717-D80D662A882A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC41CB3-958B-4968-8717-D80D662A882A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC41CB3-958B-4968-8717-D80D662A882A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC41CB3-958B-4968-8717-D80D662A882A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4351CA5A-203D-4560-A3F4-CF4F71A30082}
+	EndGlobalSection
+EndGlobal
