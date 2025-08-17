@@ -5,7 +5,7 @@ How to use:
 1) Install into your server like a regular plugin and reference this in plugins like you would normally for anything else.
 
 
-2) In your plugin use "CustomAudioHub.Main.Instance.MakeFilePath([MAKE THIS YOUR AUDIO NAME])" or something like "CustomAudioHub.Main.Instance.MakeFilePath(Instance.Config.AlarmSFX)"
+2) In your plugin use "CustomAudioHub.Main.MakeFilePath([MAKE THIS YOUR AUDIO NAME])" or something like "CustomAudioHub.Main.MakeFilePath(Instance.Config.AlarmSFX)"
 
 
 3) Update your config's:
