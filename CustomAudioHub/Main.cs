@@ -29,13 +29,18 @@ public class Main : Plugin<Config>
     /// </summary>
     public static string MakeFilePath(string audioName = "ExampleAudio") 
     {
-        // Should not we rename this to GetFilePath since it doesnt make it.
-
-        // We should always have this enabled, otherwise it will not work!
         if (Main.Instance == null)
-            return string.Empty; // Maybe get the assembly and backtrack from there?
+            return string.Empty;
+        return Path.Combine(Main.Instance.Config.AudioFilePath, audioName.Contains(".ogg") ? audioName : $"{audioName}.ogg");
+    }
 
-        // Combine with Path.Combine! otherwise when using linux and win, the slashes (/) can be fucked up.
+    /// <summary>
+    /// Combines the file name with the file path, your file name doesn't need to contain .ogg, if it doesn't it'll be added for you. Does exactly the same as MakeFilePath
+    /// </summary>
+    public static string GetFilePath(string audioName = "ExampleAudio")
+    {
+        if (Main.Instance == null)
+            return string.Empty;
         return Path.Combine(Main.Instance.Config.AudioFilePath, audioName.Contains(".ogg") ? audioName : $"{audioName}.ogg");
     }
 }
